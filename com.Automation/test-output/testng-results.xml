@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70989" started-at="2018-11-26T06:47:47Z" finished-at="2018-11-26T06:48:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70989" started-at="2018-11-26T06:47:47Z" finished-at="2018-11-26T06:48:58Z">
+      <class name="testCases.TestCase04">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testCases.TestCase04@77caeb3e]" name="startReport" is-config="true" duration-ms="172" started-at="2018-11-26T12:17:47Z" finished-at="2018-11-26T12:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:testCases.TestCase04@77caeb3e]" name="setUpBrowser" is-config="true" duration-ms="35731" started-at="2018-11-26T12:17:47Z" finished-at="2018-11-26T12:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="setUpReport()[pri:0, instance:testCases.TestCase04@77caeb3e]" name="setUpReport" is-config="true" duration-ms="8" started-at="2018-11-26T12:18:23Z" finished-at="2018-11-26T12:18:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpReport -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:testCases.TestCase04@77caeb3e]" name="verifyLogin" duration-ms="34348" started-at="2018-11-26T12:18:23Z" finished-at="2018-11-26T12:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="closeSetUpResport(org.testng.ITestResult)[pri:0, instance:testCases.TestCase04@77caeb3e]" name="closeSetUpResport" is-config="true" duration-ms="1" started-at="2018-11-26T12:18:57Z" finished-at="2018-11-26T12:18:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=TestCase04.verifyLogin()[pri:0, instance:testCases.TestCase04@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSetUpResport -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testCases.TestCase04@77caeb3e]" name="closeBrowser" is-config="true" duration-ms="861" started-at="2018-11-26T12:18:57Z" finished-at="2018-11-26T12:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeReport()[pri:0, instance:testCases.TestCase04@77caeb3e]" name="closeReport" is-config="true" duration-ms="203" started-at="2018-11-26T12:18:58Z" finished-at="2018-11-26T12:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- testCases.TestCase04 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
